@@ -1,0 +1,95 @@
+# TalentoTech Shop
+
+Una aplicación web moderna de e-commerce desarrollada con React, que implementa funcionalidades de autenticación, gestión de productos y carrito de compras.
+
+## Características Principales
+
+- 🔒 **Autenticación**
+  - Sistema de login con persistencia en localStorage
+  - Protección de rutas privadas
+  - Gestión de sesiones de usuario
+
+- 📦 **Gestión de Productos**
+  - CRUD completo de productos
+  - Integración con MockAPI
+  - Búsqueda y filtrado de productos
+  - Paginación
+
+- 🛒 **Carrito de Compras**
+  - Agregar/eliminar productos
+  - Actualizar cantidades
+  - Persistencia en localStorage
+  - Cálculo automático de totales
+
+- 🎨 **Diseño Moderno**
+  - Interfaz responsive con Bootstrap 5
+  - Estilos personalizados con Styled Components
+  - Iconografía con React Icons
+  - Notificaciones con React Toastify
+
+## Tecnologías Utilizadas
+
+- React + Vite
+- React Router DOM
+- Context API
+- Bootstrap 5
+- Styled Components
+- React Icons
+- React Toastify
+- React Helmet
+
+## Requisitos Previos
+
+- Node.js (versión 14 o superior)
+- npm o yarn
+
+## Instalación
+
+1. Clonar el repositorio:
+```bash
+git clone [URL_DEL_REPOSITORIO]
+cd talento_tech
+```
+
+2. Instalar dependencias:
+```bash
+npm install
+```
+
+3. Iniciar el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+## Estructura del Proyecto
+
+```
+src/
+├── components/     # Componentes reutilizables
+├── contexts/       # Contextos de React (Auth, Cart)
+├── pages/          # Componentes de páginas
+├── styles/         # Estilos globales y componentes estilizados
+├── utils/          # Utilidades y servicios
+└── hooks/          # Custom hooks
+```
+
+## Uso
+
+1. Acceder a la aplicación:
+   - Abrir el navegador en `http://localhost:5173`
+   - Iniciar sesión con cualquier email y contraseña (modo simulación)
+
+2. Funcionalidades disponibles:
+   - Navegar por el catálogo de productos
+   - Agregar productos al carrito
+   - Gestionar productos (crear, editar, eliminar)
+   - Realizar búsquedas y filtrar productos
+
+## Mejores Prácticas Implementadas
+
+- ✅ Componentes modulares y reutilizables
+- ✅ Gestión de estado global con Context API
+- ✅ Rutas protegidas y autenticación
+- ✅ Diseño responsive y accesible
+- ✅ Manejo de errores y feedback visual
+- ✅ Persistencia de datos en localStorage
