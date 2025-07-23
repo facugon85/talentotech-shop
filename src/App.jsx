@@ -88,7 +88,7 @@ const Welcome = () => (
 
 function App() {
   return (
-    <Router basename="/talento_tech_entrega">
+    <Router basename="/talentotech-shop">
       <AuthProvider>
         <CartProvider>
           <GlobalStyles />
