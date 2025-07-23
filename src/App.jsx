@@ -88,7 +88,7 @@ const Welcome = () => (
 
 function App() {
   return (
-    <Router>
+    <Router basename="/talento_tech_entrega">
       <AuthProvider>
         <CartProvider>
           <GlobalStyles />
@@ -98,9 +98,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
-                
                 <Route path="/products" element={<Products />} />
-                
                 <Route
                   path="/products/new"
                   element={
@@ -109,7 +107,6 @@ function App() {
                     </PrivateRoute>
                   }
                 />
-                
                 <Route
                   path="/products/edit/:id"
                   element={
@@ -118,7 +115,6 @@ function App() {
                     </PrivateRoute>
                   }
                 />
-                
                 <Route
                   path="/cart"
                   element={
@@ -127,10 +123,11 @@ function App() {
                     </PrivateRoute>
                   }
                 />
+                {/* Ruta catch-all para páginas no encontradas */}
+                <Route path="*" element={<h2>Página no encontrada</h2>} />
               </Routes>
             </MainContent>
             <Footer />
-            
             <ToastContainer
               position="bottom-right"
               autoClose={3000}
