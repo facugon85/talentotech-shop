@@ -1,0 +1,34 @@
+# Dependencias
+/node_modules
+
+# Salida de producción
+/dist
+
+# Archivos de entorno
+.env
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de pruebas de cobertura
+coverage/
+
+# Archivos temporales
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de configuración de sistema operativo
+.idea/
+
