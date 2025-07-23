@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# .gitignore
+node_modules/
+dist/
+.qodo/
+.vercel/
+
+.env.local
+.env.*
+*.tsbuildinfo
+

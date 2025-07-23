@@ -93,6 +93,7 @@ src/
 - ✅ Diseño responsive y accesible
 - ✅ Manejo de errores y feedback visual
 - ✅ Persistencia de datos en localStorage
+<<<<<<< HEAD
 
 ## Contribución
 
@@ -105,3 +106,5 @@ src/
 ## Licencia
 
 Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
+=======
+>>>>>>> d91be163a7a5a1dc7427c674002445c4265a6852
